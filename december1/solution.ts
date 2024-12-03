@@ -3,7 +3,7 @@
 import assert from 'node:assert';
 
 // https://adventofcode.com/2024/day/1/input
-const file = Deno.openSync('./1/input.txt');
+const file = Deno.openSync('./december1/input.txt');
 
 const buffer = new Uint8Array(file.statSync().size);
 
